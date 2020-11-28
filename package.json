@@ -1,0 +1,36 @@
+{
+  "name": "boiler_ts_express_typeorm",
+  "version": "1.0.0",
+  "description": "my own boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "start:dev": "nodemon src/index.ts",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/five1star/BOILER_TS_EXPRESS_TYPEORM.git"
+  },
+  "author": {
+    "name": "five1star",
+    "email": "five1star0420@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/five1star/BOILER_TS_EXPRESS_TYPEORM/issues"
+  },
+  "homepage": "https://github.com/five1star/BOILER_TS_EXPRESS_TYPEORM#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "typeorm": "^0.2.29"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.9",
+    "@types/node": "^14.14.10",
+    "nodemon": "^2.0.6",
+    "typescript": "^4.1.2"
+  }
+}
