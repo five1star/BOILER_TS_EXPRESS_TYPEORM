@@ -1,19 +1,13 @@
-import {
-  Entity,
-  PrimaryGeneratedColumn,
-  Column,
-  ManyToOne,
-  OneToMany,
-} from 'typeorm'
-import {Post} from './Post'
+import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, OneToMany } from "typeorm";
+import { Post } from "./Post";
 @Entity()
 export class Comment {
   @PrimaryGeneratedColumn()
-  id: number
+  id: number;
 
-  @Column('text')
-  text: string
+  @Column("text")
+  text: string;
 
-  @ManyToOne(type => Post, post => post.comments)
-  post: Post
+  @ManyToOne((type) => Post, (post) => post.comments)
+  post: Post;
 }
