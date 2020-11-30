@@ -11,7 +11,8 @@
     "esModuleInterop": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "paths": {"*": ["node_modules/*"]}
+    "forceConsistentCasingInFileNames": true,
+    "paths": { "*": ["node_modules/*"] }
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
